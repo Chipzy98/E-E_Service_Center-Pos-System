@@ -5,9 +5,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.layout.AnchorPane;
 
 public class ViewOrderReportForm {
-
+    @FXML
+    private AnchorPane pane3;
     @FXML
     private Button backbtn;
 

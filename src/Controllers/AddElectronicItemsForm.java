@@ -6,9 +6,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class AddElectronicItemsForm {
-
+    @FXML
+    private AnchorPane pane5;
     @FXML
     private TextField pnametxt;
 

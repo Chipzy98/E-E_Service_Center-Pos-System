@@ -11,7 +11,7 @@ import javafx.scene.layout.AnchorPane;
 public class AddElectricalItemsForm {
 
     @FXML
-    private AnchorPane pane3;
+    private AnchorPane pane6;
 
     @FXML
     private TextField pnametxt;
