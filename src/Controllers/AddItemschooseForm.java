@@ -13,6 +13,14 @@ public class AddItemschooseForm {
     private Button electronicbtn;
 
     @FXML
+    private Button backbtn;
+
+    @FXML
+    void BackbuttonOnAction(ActionEvent event) {
+
+    }
+
+    @FXML
     void ElectricalbuttonOnAction(ActionEvent event) {
 
     }
