@@ -6,10 +6,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane7" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddCustomerForm">
+<AnchorPane fx:id="pane7" prefHeight="400.0" prefWidth="447.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddCustomerForm">
    <children>
-      <Label layoutY="40.0" prefHeight="360.0" prefWidth="349.0" style="-fx-background-color: #ffbe76;" />
-      <Label alignment="CENTER" prefHeight="40.0" prefWidth="615.0" style="-fx-background-color: #0be881;" text="Add Customer" textAlignment="CENTER">
+      <Label layoutY="40.0" prefHeight="360.0" prefWidth="447.0" style="-fx-background-color: #B1C9EF;" />
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="447.0" style="-fx-background-color: #0be881;" text="Add Customer" textAlignment="CENTER">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -38,12 +38,12 @@
       <TextField fx:id="cusidtxt" layoutX="159.0" layoutY="108.0" prefHeight="25.0" prefWidth="170.0" />
       <TextField fx:id="cusemailtxt" layoutX="159.0" layoutY="157.0" prefHeight="25.0" prefWidth="170.0" />
       <TextField fx:id="cusmnumtxt" layoutX="159.0" layoutY="207.0" prefHeight="25.0" prefWidth="170.0" />
-      <Button fx:id="savebtn" layoutX="41.0" layoutY="336.0" mnemonicParsing="false" onAction="#SavebuttonOnAction" prefHeight="40.0" prefWidth="117.0" style="-fx-background-color: #1dd1a1;" text="Save" textFill="WHITE">
+      <Button fx:id="savebtn" layoutX="98.0" layoutY="336.0" mnemonicParsing="false" onAction="#SavebuttonOnAction" prefHeight="40.0" prefWidth="117.0" style="-fx-background-color: #1dd1a1;" text="Save" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <Button fx:id="clearbtn" layoutX="186.0" layoutY="336.0" mnemonicParsing="false" onAction="#ClearbuttonOnAction" prefHeight="40.0" prefWidth="117.0" style="-fx-background-color: #ff6b6b;" text="Clear" textFill="WHITE">
+      <Button fx:id="clearbtn" layoutX="243.0" layoutY="336.0" mnemonicParsing="false" onAction="#ClearbuttonOnAction" prefHeight="40.0" prefWidth="117.0" style="-fx-background-color: #ff6b6b;" text="Clear" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
